@@ -136,7 +136,6 @@ UIPageViewControllerDataSource, UIScrollViewDelegate, UIToolbarDelegate>
 
 - (void)viewWillLayoutSubviews {
 	[super viewWillLayoutSubviews];
-	[self.pageViewController.view layoutSubviews];
 }
 
 #pragma mark - Actions
